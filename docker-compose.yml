@@ -1,0 +1,14 @@
+version: '8.4'
+services:
+  db:
+    image: mysql
+    container_name: hpmysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - devhp_data:/var/lib/mysql
+
+volumes:
+  devhp_data:
