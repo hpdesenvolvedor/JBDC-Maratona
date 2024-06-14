@@ -7,7 +7,7 @@
     </Appenders>
     <Loggers>
         <!-- avoid duplicated logs with additivity=false -->
-        <Logger name="JBDC-PrimeiroProjeto" level="info" additivity="false">
+        <Logger name="JDBC-PrimeiroProjeto" level="info" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
         <Root level="error">
